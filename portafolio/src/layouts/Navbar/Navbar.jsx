@@ -4,11 +4,11 @@ export const Navbar = () =>{
         <>
           <nav>
             <ul className='flex space-x-4'>
-            <ItemNavbar url = '/' content = 'Home' styles = ''/>
-            <ItemNavbar url = '/studies' content = 'Studies' styles = ''/>
-            <ItemNavbar url = '/TechnicalSkills' content = 'Technical Skills' styles = ''/>
-            <ItemNavbar url = '/SocialSkills' content = 'Social Skills' styles = ''/>
-            <ItemNavbar url = '/ProfessionalExperience' content = 'Professional Experience' styles = ''/>
+            <ItemNavbar url = '/' content = 'Home' styles = 'hover:not-focus:bg-cyan-400'/>
+            <ItemNavbar url = '/studies' content = 'Studies' styles = 'hover:not-focus:bg-cyan-400'/>
+            <ItemNavbar url = '/TechnicalSkills' content = 'Technical Skills' styles = 'hover:not-focus:bg-cyan-400'/>
+            <ItemNavbar url = '/SocialSkills' content = 'Social Skills' styles = 'hover:not-focus:bg-cyan-400'/>
+            <ItemNavbar url = '/ProfessionalExperience' content = 'Professional Experience' styles = 'hover:not-focus:bg-cyan-400'/>
             </ul>
           </nav>
         </>

@@ -1,5 +1,5 @@
 import React from 'react'
-import yo from '../img/yo.png'
+import yo from '../assets/img/yo.png'
 export const Home = () => {
   return (
     <div className='flex justify-center w-full bg-zinc-900 h-160 items-center'>
