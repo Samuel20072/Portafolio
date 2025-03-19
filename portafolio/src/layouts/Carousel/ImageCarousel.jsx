@@ -7,7 +7,7 @@ import { images } from '../../assets/data.jsx';
 
 export const ImageCarousel = () => {
     return (
-      <div className="w-full max-w-2xl mx-auto p-4 h-full bg-zinc-900 m-4 border-2 rounded-lg">
+      <div className="w-full max-w-2xl mx-auto p-4 h-full bg-white m-4  rounded-lg">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           navigation
