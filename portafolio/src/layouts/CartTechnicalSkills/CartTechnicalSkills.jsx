@@ -1,11 +1,8 @@
-import React from 'react'
-
-export const CartTechnicalSkills = ({Title = "sin titulo",styleTitle = "", children}) => {
+export const CartTechnicalSkills = ({ title = "Sin título", styleTitle = "text-cyan-400 font-bold text-2xl w-20", children }) => {
   return (
-    <div className='flex flex-wrap w-250 m-10 h-80 items-center justify-between flex-row'>
-       <h2 className={styleTitle}>{Title}</h2>
+    <div className='flex flex-wrap w-auto m-10 h-80 items-center justify-between flex-row'>
+       <h2 className={styleTitle}>{title}</h2>
        {children}
     </div>
   )
 }
-
