@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CartsSkills = ({title = "Sin título", icon = "Sin icono", secondIcon = "Sin icono",description = "", styles = "flex flex-col w-50  h-auto justify-between p-10 rounded-lg shadow-lg items-center text-center"
+export const CartsSkills = ({title = "Sin título", icon = "Sin icono", secondIcon = "Sin icono",description = "", styles = "flex flex-col w-50  h-80 justify-between p-10 rounded-lg shadow-lg items-center text-center bg-white"
 }) => {
   return (
     <div className={styles}>
